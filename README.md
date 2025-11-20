@@ -57,6 +57,103 @@ Each selected client loads REQ(s) and associated talents dynamically.
 
 ---
 
+## 📦 Installation & Setup
 
+### 1️⃣ Clone the repository
+```sh
+git clone https://github.com/KrutikNaina/ownai-reactjs.git
+cd ownai-reactjs
+```
+
+### 2️⃣ Install dependencies
+```sh
+npm install
+```
+
+### 3️⃣ Start the development server
+```sh
+npm start
+```
+
+## 🚀 App Runs At
+👉 **http://localhost:3000**
+
+---
+
+## ✔ Validations Implemented
+
+### **Form Level**
+- Mandatory fields  
+- 5-digit numeric budget  
+- End Date must be **greater than or equal to** Start Date  
+- Email format  
+- PO Type required  
+- Client selection required  
+
+---
+
+### **Talent Level**
+- Contract Duration required  
+- Bill Rate required  
+- Talent fields appear **only when checkbox is selected**  
+
+---
+
+### **Business Rules**
+- **Individual PO → only 1 talent allowed (globally)**  
+- **Group PO → at least 2 talents required before submitting**  
+
+---
+
+## 📷 UI Preview
+
+**Pixel-perfect design based on provided Screenshot/Figma**, including:
+
+- 4-column responsive layout  
+- Soft light grey bordered cards  
+- Input suffix boxes (`Months`, `/hr`)  
+- Clean spacing & uniform paddings  
+- Shadowed sections  
+- Realistic PO management form layout  
+
+---
+
+## 📝 Code Quality
+
+- Fully modular **component-based architecture**  
+- Clean and consistent state management (React Hooks)  
+- Components split into logical units:
+  - `PurchaseOrderForm`
+  - `ReqSection`
+  - `TalentFields`
+- Reusable field layouts  
+- Zero redundant or unused code  
+- Interview-friendly formatting  
+- Follows React best practices (pure components, controlled inputs, prop drilling kept minimal)  
+
+---
+
+## 📤 Submission Output
+
+This project includes:
+
+- **Edit Mode**  
+- **View-Only Mode** after Save  
+- JSON payload preview  
+- Clean console output on Submit  
+
+---
+
+## 🤝 Contribution
+This project was created as part of a **ReactJS interview assessment**.  
+Feel free to **fork**, improve, or extend functionality.
+
+---
+
+## 🧑‍💻 Author  
+**Krutik Nena**  
+
+🌐 Portfolio: https://krutiknaina.com  
+🐙 GitHub: https://github.com/KrutikNaina  
 
 
