@@ -1,0 +1,29 @@
+/* small reset */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif;
+    background: #f6f7f8;
+    color: #222;
+    -webkit-font-smoothing: antialiased;
+}
+
+button {
+    font-family: inherit;
+}
+
+
+.po-field input {
+    width: 250px;   /* pick any width you want */
+    box-sizing: border-box;
+  }
+  
